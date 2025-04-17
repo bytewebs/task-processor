@@ -27,7 +27,7 @@ The application follows a modular architecture with the following components:
 - **Worker Pool**: Manages concurrent task processing
 - **Database Layer**: Handles interactions with PostgreSQL
 - **Configuration Manager**: Loads settings from environment variables
-![](static/image.png)
+![](static/image-3.png)
 ### Workflow
 
 1. Load configuration from **.env** and connect to **PostgreSQL** database
@@ -105,7 +105,7 @@ This project uses a PostgreSQL database with a single table to manage and track 
 | updated_at | timestamp with time zone | Last updated timestamp |
 
 ## Monitoring with pgAdmin 4
-![](static/image-3.png)
+![](static/image-4.png)
 Live pgAdmin dashboard view during task processing. Note the transaction activity, minimal rollbacks, and high cache hit ratio — all indicators of a healthy, responsive PostgreSQL-backed backend.
 
 ## Running the Application
