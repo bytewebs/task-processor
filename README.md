@@ -104,6 +104,10 @@ This project uses a PostgreSQL database with a single table to manage and track 
 | created_at | timestamp with time zone | Creation timestamp |
 | updated_at | timestamp with time zone | Last updated timestamp |
 
+## Monitoring with pgAdmin 4
+
+Live pgAdmin dashboard view during task processing. Note the transaction activity, minimal rollbacks, and high cache hit ratio — all indicators of a healthy, responsive PostgreSQL-backed backend.
+
 ## Running the Application
 
 1. Run database migrations:
